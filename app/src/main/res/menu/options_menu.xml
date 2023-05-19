@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/tentang_aplikasi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/motor1"
+        android:title="@string/Motor12"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mobil1"
+        android:title="@string/mobil12"
+        app:showAsAction="never" />
+
+</menu>
