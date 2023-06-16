@@ -18,4 +18,8 @@ class MainActivity : AppCompatActivity() {
         navController = findNavController(R.id.myNavHostFragment)
         NavigationUI.setupActionBarWithNavController(this, navController)
     }
+    companion object {
+        const val CHANNEL_ID = "updater"
+        const val PERMISSION_REQUEST_CODE = 1
+    }
 }
